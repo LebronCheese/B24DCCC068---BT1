@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f6f8;
+    color: #333;
+}
+
+header {
+    background: #4a90e2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.profile {
+    display: flex;
+    align-items: flex-start; /* canh đầu trên */
+    gap: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.profile-info {
+    flex: 1; /* chiếm toàn bộ phần còn lại */
+}
+
+h2 {
+    color: #4a90e2;
+    margin-top: 0;
+}
+
+p {
+    line-height: 1.6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #eaf1fb;
+}
+
+.contact {
+    margin-top: 20px;
+    padding: 15px;
+    background: #fff;
+    border-left: 5px solid #4a90e2;
+}
+
+.contact a {
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background: #4a90e2;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+span.highlight {
+    color: #e67e22;
+    font-weight: bold;
+}
